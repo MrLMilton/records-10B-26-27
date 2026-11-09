@@ -15,12 +15,12 @@ namespace records_10B_26_27
 
             public film(string title, string certificate, string[] cinemaShowings, int runtime, bool beingShown, double ticketPrice)
             {
-                title = this.title;
-                certificate = this.certificate;
-                cinemaShowings = this.cinemaShowings;
-                runtime = this.runtime;
-                beingShown = this.beingShown;
-                ticketPrice = this.ticketPrice;
+                this.title = title;
+                this.certificate = certificate;
+                this.cinemaShowings = cinemaShowings;
+                this.runtime = runtime;
+                this.beingShown = beingShown;
+                this.ticketPrice = ticketPrice;
             }
 
         }
