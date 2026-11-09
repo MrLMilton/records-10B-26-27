@@ -26,7 +26,8 @@ namespace records_10B_26_27
         }
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            film Wildwood = new film("Wildwood", "12A", ["Showcase Cinema de Lux Leeds", "Cineworld Cinema - Leeds" , "ODEON Luxe Leeds Bradford" , "ODEON Huddersfield"], 131, true,7.99);
+            Console.WriteLine(Wildwood.title);
         }
     }
 }
