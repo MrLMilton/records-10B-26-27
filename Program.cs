@@ -37,6 +37,12 @@ namespace records_10B_26_27
             { 
                 Console.WriteLine(Wildwood.cinemaShowings[i]); 
             }
+            film UsersFilm;
+            Console.WriteLine("What is the title of your film");
+            UsersFilm.title = Console.ReadLine();
+
+            UsersFilm.cinemaShowings = new string[] {Console.ReadLine()};
+
         }
     }
 }
